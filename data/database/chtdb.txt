@@ -82102,9 +82102,26 @@ D005A90C 000C
 801759D2 3000
 801759D4 0030
 
-; [ Shachou Eiyuuden - The Eagle Shooting Heroes (Asia) (2000?) (SCEI) {SCPS-45510} <shacheyu> ]
-;:SCPS-45510
-;This game currently has no cheats
+
+; [ She Diao Ying Xiong Zhuan (Asia) (SCEI) {SCPS-45510} <shacheyu> ]
+:SCPS-45510
+#999HP
+8008C262 03E7
+8008C264 03E7
+#999MP
+8008C266 03E7
+8008C264 03E7
+#999AP
+8008C26A 03E7
+8008C268 03E7
+#zui da jing yan - max exp
+8008C268 03E7
+8008C26C FFFF
+#zui da fang yu he gong ji li - max power defense
+8008C26E 03E7
+#wu xian jin qian - max money
+8008C254 FFFF
+
 
 ; [ Shiibas 1-2-3 - Destiny! Unmei O Kaerusha! (Jpn) (2000) (Jaleco) {SLPS-01893} <shiba123> ]
 :SLPS-01893
@@ -89451,6 +89468,128 @@ D00AA310 0043
 ; [ Akumajou Dracula X: Gekka no Yasoukyoku (Japan) Rev 1 {SLP-86023} ]
 ; [ Akumajou Dracula X: Gekka no Yasoukyoku (Japan) Rev 2 {SLP-86073} ]
 ; [ Akumajou Dracula X: Gekka no Yasoukyoku (Japan) {SLP-86023} ]
+
+; [ Akumajou Dracula X: Gekka no Yasoukyoku (Japan) {SLPM-86023} ]
+:SLPM-86023
+#Access All Enemy Tactics in Library
+8003BF6C FFFF
+8003BF6E 18FF
+#Access All Warp Rooms
+8003BEBC 1F1F
+#All Familiars Max Experience
+5000070C 0000
+80097C48 26AB
+#All Familiars Max Level
+5000070C 0000
+80097C44 0063
+#All Items (GS 2.2 or Higher)
+50008202 0000
+8009798A 1010
+#All Special Items (GS 2.2 Or Higher Needed!)
+50000402 0202
+80097992 8180
+50000F02 0000
+80097974 0303
+#Always Have Flame Whip (Richter Only)
+E003C9A0 0001
+80072F00 0800
+#Always Run (Richter Only)
+80072F10 0008
+#Can Refight Any Boss (ASM) (L1&R1=ON / L2&R2=OFF)
+D0097498 000C
+800FD398 0000
+D0097498 000C
+800FD39A 3C02
+D0097498 0003
+800FD398 CA30
+D0097498 0003
+800FD39A 8C22
+#Collect Pick-Up Items Over & Over Again
+50003102 0000
+8003BEEC 0000
+#Complete Monster Dictionary
+50000902 0000
+8003BF7C FFFF
+3003BF8E 0003
+50000902 0000
+8003BF9C FFFF
+#Enable Debug Mode
+800974A0 0040
+80097918 0040
+#Endless Hydro Storm (Richter Only)
+80074CFC FFFF
+#Endless Stopwatch Time
+80074BD4 0004
+#Experience Level 99
+80097BE8 0063
+#Infinite Gold
+80097BF0 423F
+80097BF2 000F
+#Infinite Health (ASM)
+800FEC82 0040
+#Infinite Hearts / Maximum Hearts
+80097BA8 270F
+80097BAC 270F
+#Infinite HP / Maximum HP Level
+80097BA0 270F
+80097BA4 270F
+#Infinite MP (ASM)
+800FEED6 2400
+800FDB5E 2400
+#Infinite MP / Maximum MP Level
+80097BB0 270F
+80097BB4 270F
+#Invincible
+80072F1C 0010
+#Max EXP
+80097BFC 7F96
+80097BFE 0098
+#Maximum Attack Level
+800F4BF6 1400
+#Maximum CON.
+80097BBC 03E7
+#Maximum Defense Level
+800F504E 1400
+#Maximum Enemies Beaten
+80097BF4 423F
+80097BF6 000F
+#Maximum EXP.
+80097BEC 423F
+80097BEE 000F
+#Maximum INT.
+80097BC0 03E7
+#Maximum LCK.
+80097BC4 03E7
+#Maximum Rooms Cleared
+8003C760 423F
+8003C762 000F
+#Maximum STR.
+80097BB8 03E7
+#Multi-Stage Jumps (Alucard only)
+80072F64 0004
+#Play as Alucard
+3003C9A0 0000
+#Play as Richter
+3003C9A0 0001
+#Press L2 to Select Sub-Weapons
+E0072EE8 0001
+D0098000 0000
+10097BFC 0001
+E0072EE8 0001
+D0098000 0000
+80098000 0001
+E0072EE8 0000
+80098000 0000
+D3097BFC 0009
+80097BFC 0000
+#Press X to Float
+E0072EE8 0040
+800733E6 FFFB
+#Total Time = 00:00
+80097C30 0000
+80097C34 0000
+#Unlock All Clear Bonuses
+3003BDE0 0001
 
 ; [ Alex Ferguson's Player Manager 2001 (Europe) {SLES-03150} ]
 :SLES-03150
@@ -102149,6 +102288,37 @@ D00A004A FEFF
 8006DD50 0C00
 
 ; [ DewPrism (Japan, Asia) {SCPS-45436} ]
+:SCPS-45436
+#1 Hit Dead 
+D0058696 1C40
+80058696 1C00
+#All Items (Caetla Only) 
+B0110001 00000000
+3009B5B8 0063
+#All Monsters (Caetla Only) 
+B0210002 00000000
+8009B5D0 07E7
+#Infinit Mp 
+D0059A76 0070
+D0059A76 0060
+#Infinite Hp 
+D0058642 0071
+80058642 0060
+#Max +Act 
+8009B590 03E7
+#Max +Def 
+8009B594 03E7
+#Max Act 
+8009B588 03E7
+#Max Def 
+8009B58C 03E7
+#Max Hp 
+8009B584 03E7
+#Max Money 
+8009B4F0 967F
+8009B4F2 0098
+#Max Mp 
+8009B586 03E7
 
 ; [ Dexter's Laboratory: Mandark's Lab? (Europe) {SLES-03627} ]
 :SLES-03627
@@ -112337,6 +112507,41 @@ D009FD5E 0030
 ; [ Fuujin Ryouiki Eretzvaju (Japan) Demo {SLP-80364} ]
 ; [ G Darius (Japan) (Tentou Demo-ban) {SLP-80205} ]
 ; [ G Darius (Japan, Asia) {SCPS-45202} ]
+:SCPS-45202
+#Infinite Credits
+800ABD80 0003
+#Infinite Lives P1
+800BA69E 0003
+#Invincibility P1"
+800BA6A2 00E2
+#Infinite Capture Balls P1
+800BAC2A 0400
+#Max Missiles P1
+800BABD8 0502
+#Max Bombs P1
+800BAC08 0202
+#Max Arms P1
+800BAC28 0402
+#Infinite Lives P2
+800BADAA 0003
+#Invincibility P2
+800BADAE 00E2
+#Infinite Capture Balls P2
+800BB336 0400
+#Max Missiles P2
+800BB2E4 0502
+#Max Bombs P2
+800BB314 0202
+#Max Arms P2
+800BB334 0402
+#Never Lose Missile Power P1
+8004F79E 2400
+#Never Lose Bomb Power P1
+8004F922 2400
+#Never Lose Arms Power P1
+8004FA9A 2400
+#Have All Movies (Movie Option)
+800D5D18 001F
 
 ; [ G-Police (Europe) {SLES-00082 | SLES-10082} ]
 :SLES-00082
@@ -119242,6 +119447,45 @@ A70C2EDE 10401000
 #Max Money
 900CB1EC 0001FFFF
 
+; [ Kaette Kita Cyborg Kuro-chan (Japan)  {SLPM-87174} ]
+:SLPM-87174
+#Bullets (P1)
+800D8F48 270F
+#Bullets (P2)
+800D8F54 270F
+#Flamethrower (P1)
+800D8F44 270F
+#Flamethrower (P2)
+800D8F50 270F
+#HP (P1)
+800D8D84 0096
+#HP (P2)
+800D8D86 0096
+#Lives (P1)
+800D8DB4 0009
+#Lives (P2)
+800D8DB6 0009
+#Rockets (P1)
+800D8F4A 270F
+#Rockets (P2)
+800D8F56 270F
+#Special Weapon (P1)
+800D8F46 270F
+#Special Weapon (P2)
+800D8F52 270F
+#Sword Attacks (P1)
+800D8F42 270F
+#Sword Attacks (P2)
+800D8F4E 270F
+#Max Score (P1)
+800D8D98 E0FF
+800D8D9A 05F5
+#Max Score (P2)
+800D8D9C E0FF
+800D8D9E 05F5
+#Unlock Powered-Up Kurochan
+800D8ECC 0001
+
 ; [ Kagayaku Kisetsu e (Japan) (Shokai Genteiban) {SLPS-01972 | SLPS-01973} ]
 :SLPS-01972
 :SLPS-01973
@@ -125564,6 +125808,50 @@ E009D913 0000
 800AFBF0 0033
 #Level Select
 300AFF34 0001
+
+; [ Mickey's Wild Adventure (Europe) (Platinum) {SCUS-00163} ]
+:SCUS-00163
+#2-Hit Kill (Pete Eol - Final Battle)
+D00BDDF6 0004
+300BDDF6 0001
+#Float left/right (Press R2 & Cross & Left/Right)
+D00C985E BDDF
+50000202 0000
+800BDC88 0000
+D00C985E BD7F
+50000202 0000
+800BDC88 0000
+#Infinite HP
+800B0268 0000
+#Infinite lives
+800B037C 0003
+#Infinite Lives
+800B037C 0009
+#Infinite marbles
+800AFFC4 000A
+#Infinite Marbles
+800AFFC4 0063
+#Invincible
+800AFBF0 0033
+#Invincible
+800AFBF0 000F
+#Level Select Cheat
+300AFF34 0001
+#MoonJump (Press R2 & X)
+D00C985E BDFF
+800BDC88 0000
+#Never Lose Your Position
+300B03BC 0001
+#PAL2NTSC
+3007F8D6 0020
+#Press X For Moon Jump
+E00C985F 00BF
+800BDC88 FF5E
+#Switch Flipped (Steps Level)
+D00FE0D0 0081
+300FE0D0 0082
+#Unlimited Health
+300AFF90 0001
 
 ; [ Micro Machines (Japan) {SLPS-01111} ]
 :SLPS-01111
@@ -139871,10 +140159,170 @@ D0134B48 0108
 
 ; [ Rockman X4 (Japan) (Special Limited Pack) {SLPS-00901} ]
 ; [ Rockman X4 (Japan) {SLP-87315} ]
+:SLPM-87315
+#Max Power
+80141924 3023
+80172206 3030
+#Max Hp
+80172204 0909
+#Invincible
+80141928 0100
+#Max Arms"
+50000502 0000
+80141970 3030
+#Suicide
+D0166C08 0100
+301418CC 0003
+#All sub cans to be filled and L2
+8017221A F000
+D0166C08 0001
+8017221C 2020
+D0166C08 0001
+8017221E 0020
+#Infinite Lightning Web Nova Strike and Rakuhouha
+80141970 3030
+#Infinite leg jet
+8014199C 9D00
+#Death Touch
+D0166C08 0080
+8013BF2C 0000
+#Death Touch 2
+D0166C08 0080
+8013C19C 0000
+#Death Touch 3
+D0166C08 0080
+8013BFC8 0000
+#Clothing change code\\special clothing
+801721F6 0100
+#Clothing change code\\old clothing
+801721F6 0000
+#Floater
+D0166C08 0040
+801418EE 0000
+#Air x
+801418EC 6E00
+#Sky master
+8014194E 0000
+#The weapon of lethal decree x is permanently set to four times of energy storage
+3014196E 0404
+#Super jump
+D0166C08 0040
+801418EC 9000
+D0166C08 2040
+801418EC 9000
+#Infinite frost tower and infinite soul
+80141972 3030
+#Infinite Rising Fire＆Infinite Ground Hunter
+80141974 3030
+#Infinite aiming laser and infinite double whirlwind
+80141976 3030
+#Infinite double blades
+80141978 3030
+#Possession of all weapons
+30141981 00FF
+#With all enhancements
+3014196F 00FF
+#X-Electrified
+30141963 0002
+#X-Buster charge
+30141964 0002
+#Arm Enhancement Type 1，Plasma Blast（Other Fire Button）
+30141980 0002
+30141964 0002
+#Arm Enhancemen Type 2，Quadra Blast
+30141980 0001+3014196E 0004
+#Infinite Leg Jets
+8014199C 9D00
+#shadow
+80141954 0001
+#Infinite Dash（No Dash Jump）
+8014194C 0000
+#Infinite Dash（Easy Dash Jump）
+8014194C 0001
+
 ; [ Rockman X4, Rockman 8: Metal Heroes, Rockman: Battle & Chase (Japan) Demo {SLP-80121} ]
 ; [ Rockman X5 (Japan) {SLP-86666} ]
+:SLPM-86666
+#Max Healthy
+8009A0FC 2020
+#Ultra Buster Shot
+8009A13C FFFF
+#Infinite C shot
+8009A14A 0121
+#Max Hp
+300D1C45 0004
+#All weapons
+3009A169 00FF
+#Allow to step on nails
+D0074634 72E8
+80074634 5F90
+D0038B9C 0012
+80038B9E 1000
+D0038BF0 0018
+80038BF2 1000
+#Infinite C-Shot / Dark Hold（Xero）
+8009A14A 0120
+#Infinite Dark Hold / Cflasher（Xero）
+8009A14C 0120
+#Infinite Goo Shaver / Twin Dream（Xero）
+8009A14E 0120
+#Infinite ground fire
+8009A150 0120
+#Infinite Tri-Thunder
+8009A152 0120
+#Max F laser
+8009A154 0120
+#Max Spike ball
+8009A156 0120
+#Max WING SPIRAL
+8009A158 0120
+#Max ammunition
+D003F82C 1823
+8003F832 2400
+#Max collision
+800D1CAE 0040
+#X-Buster
+300D4F56 0001
+#Wing helix
+300D4F57 0001
+#C-Shot
+300D4F58 0001
+#Three thunder
+300D4F5A 0001
+#dark
+300D4F5B 0001
+#F laser
+300D4F5C 0001
+#Ground fire
+300D4F5D 0001
+#Goo Shaver
+300D4F5E 0001
+#Gigabit attack
+300D4F5F 0001
+#Restore life
+300D4F60 0001
+#Life table
+300D4F61 0001"
+#Reset energy
+300D4F62 0001
+#Class a export
+300D4F63 0001
+#explosion-proof
+300D4F67 0001
+#Infinite All Ammo
+D0041D8C 00AC
+80041D8E 2400
+D0043C44 00AE
+80043C46 2400
+D0046E84 2023
+80046E8A 2400
+#Max Energy ball
+D00D51A2 7FFF
+800D1C26 0008
+
 ; [ Rockman X6 (Japan) Beta {SLP-86959} ]
 ; [ Rockman X6 (Japan) {SLP-86959} ]
+
 
 ; [ Rockman: Battle & Chase (Japan) (PlayStation the Best) {SLPS-91093} ]
 :SLPS-91093
